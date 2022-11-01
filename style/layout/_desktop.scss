@@ -1,0 +1,182 @@
+@media screen and (min-width: 1300px){
+    body{
+        text-align: left;
+    }
+
+    .container{
+        max-width: 1600px;
+    }
+
+    //typography
+    h2, h3{
+        text-align: center;
+    }
+    h2{
+        padding-top: 60px;
+        font-size: 5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    //nav
+    .mobile--menu{
+        display: none;  //lägg till "rätt" kod här
+    }
+    nav{
+        display: block;
+    }
+    .nav{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 70px;
+        background: rgba(218, 229, 224, 0.7);
+        z-index:2;
+        ul{
+            list-style-type: none;
+            display: flex;
+            padding: 0 60px;
+            a, button{
+                margin: 0 20px;
+            }
+            i,a {
+                color: $red;
+            }
+            a{
+                font-size: 2rem;
+                font-family: atrament-web, sans-serif;
+                &:hover, &:focus, i:hover, i:focus{
+                    color: $accent-color2;
+                }
+            }
+            button{
+                font-size: 2rem;
+                background: $red;
+                padding: 0px 35px;
+                border-radius: 20px;
+                color: white;
+                -webkit-transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                transition: all .5s ease;
+                    &:hover, &:focus{
+                        font-size: 2.5rem;
+                    }
+            }
+        }
+    }
+
+//header
+header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-top: 100px;
+    img{
+        width: 500px;
+        height: 600px;
+    }
+    div{
+        margin-top: 100px;
+        h1{
+            font-size: 7rem;
+            text-align: left;
+        }
+        p{
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+        button{
+            padding: 5px 20px;
+            a{
+                font-size: 2.5rem;
+            }   
+        }
+    }
+    }
+
+    //skills
+    .skills--flex{
+        display: flex;
+        justify-content: space-between;
+        div{
+            width: 100%;
+        }
+    }
+    .education{
+        width: 150%;
+        margin-left: 100px;
+        div{
+            width: 50%;
+        }
+    }
+
+    //contact 
+    .contact{
+        padding-bottom: 100px;
+        p{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+    }
+    .contact--flex{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    } 
+    .icons--flex{
+        position: relative;
+        right: 50px;
+         i{
+             margin-right: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1700px){
+//header
+    header{
+        img{
+            height: 800px;
+            width: 800px;
+        }
+        div{
+            padding-top: 150px;
+            padding-left: 50px;
+
+            h1{
+                font-size: 9rem;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 2100px){
+    header {
+        padding-top: 100px;
+        img{
+            width: 950px;
+            height: 950px;
+            margin: 0;
+        }
+        div{
+            padding-top: 50px;
+            h1{
+                font-size: 12rem;
+            }
+            p{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+   

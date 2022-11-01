@@ -1,0 +1,9 @@
+Har gått igenom checklistan på https://www.a11yproject.com/checklist/.
+
+Punkter där jag inte uppfyller full tillgänglighet:
+- Identify links that open in a new tab or window.
+    Tycker detta känns onödigt på min sida då det är logiskt att vissa länkar ska öppnas i ny flik.
+
+I övrigt uppfyller sidan punkterna i checklistan.
+
+Har även 100% accessibility på lighthouse.

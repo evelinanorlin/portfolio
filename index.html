@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evelina Norlins portfolio">
+    <meta name="keywords" content="portfolio, front end, graphic design, student">
+    <meta name="author" content="Evelina Norlin">
+    <meta property="og:title" content="Evelina Norlin, Front end developer">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/jag.png">
+    <script src="https://kit.fontawesome.com/bae5c522cf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/lli0xyz.css">
+    <link rel="stylesheet" href="modern_css_reset.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <title>Evelina Norlin</title>
+</head>
+<body>
+    <div class="mobile--menu">
+        <a href="#header"><img src="images/logo_clean.png" class="retro logotype with ocean and sun" alt="logotype" height="50" width="50" loading="lazy"></a>
+        <button class="burger--button" aria-label="open and close menu" onclick="myFunction()">
+                <span></span>
+                <span></span>
+                <span></span>  
+        </button>
+    </div>
+    <nav>
+        <div id="links" class="nav--mobile">
+            <div>
+                <ul class="nav--icons">
+                    <li><a href="https://www.linkedin.com/in/evelinanorlin/" aria-label="linkedin symbol" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/evelinanorlin" aria-label="github symbol" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/evelina.norlin/" aria-label="instagram symbol" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="nav--links">
+                <ul>
+                    <li><a href="#about" onclick="myFunction()">about</a></li>
+                    <li><a href="#skills" onclick="myFunction()">experience</a></li>
+                    <li><a href="#portfolio" onclick="myFunction()">portfolio</a></li>
+                    <li><a href="#contact" onclick="myFunction()">contact</a></li>
+                </ul>
+            </div>
+        </div>   
+        <div class="nav">    <!-- <a href="#header"><img src="images/logo_clean.png" class="logotype" alt="logotype" height="50" width="50"></a> -->
+            <div>
+                <ul class="nav--icons">
+                    <li><a href="https://www.linkedin.com/in/evelinanorlin/" aria-label="linkedin symbol" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/evelinanorlin" aria-label="github symbol" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/evelina.norlin/" aria-label="instagram symbol" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="nav--links">
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">experience</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><button onclick="window.location.href='#contact'">contact</button></li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+    <header>
+        <img src="images/logotype_surf.png" width="300" height="300" alt="big retro logotype with ocean and sun" loading="lazy">
+        <div>
+        <h1>Hi, I'm Evelina Norlin</h1>
+            <p>Student of front end development and <br> graphic design </p>
+            <button onclick="window.location.href='#contact'">Let's get in contact!</button>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Who am I?</h2>
+            <div class="about--grid">
+                <div>
+                    <p>As a newbie in the field I’m on the mission
+                    to learn as much as I can. My interest lies in 
+                    front end development and graphic design,
+                    which I’m studying beside my full time 
+                    development program.</p>
+                    <p><span class="bold">What do I do when I'm not on my computer?</span></p>
+                    <p>I'm a part time yoga and movement teacher, 
+                        mountain climbing is one of my big passions,
+                        I have a spanish water dog named Ronja,
+                        and This spring I will build my very own house! </p>
+                </div>
+                <img src="images/jag.png" height="100" width="70" alt="Evelina standing in front of ocean" loading="lazy">
+                <button onclick="window.location.href='#portfolio'">view my projects</button>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>What do I know?</h2>
+            <div class="skills--flex">
+                <div>
+                    <h3>Skills</h3>
+                    <div class="flex">
+                        <div>
+                            <p>HTML</p>
+                            <div class="progress--bar"><div class="html"></div></div>
+                            <p>css</p>
+                            <div class="progress--bar css"><div class="css"></div></div>
+                            <p>scss</p>
+                            <div class="progress--bar scss"><div class="sc"></div></div>
+                            <p>React</p>
+                            <div class="progress--bar react"><div class="react"></div></div>
+                        </div>
+                        <div>
+                            <p>javaScript</p>
+                             <div class="progress--bar javascript"><div class="javascript"></div></div>
+                            <p>Vue.js</p>
+                            <div class="progress--bar vue"><div class="vue"></div></div>
+                            <p>Photoshop</p>
+                            <div class="progress--bar photoshop"><div class="photoshop"></div></div>
+                            <p>Illustrator</p>
+                             <div class="progress--bar illustrator"><div class="illustrator"></div></div>
+                        </div>
+                     </div>
+                </div>
+                <div>
+                    <h3>Education</h3>
+                    <div class="education">
+                        <div>
+                            <p><span class="dark--color bold">2022 -</span><br><span class="bold">Front-end developer</span><br>Medieinstitutet </p>
+                            <p><span class="dark--color bold">2022 -</span><br><span class="bold">Cross media design</span><br>Runö folkhögskola</p>
+                        </div>
+                        <div>
+                            <p><span class="dark--color bold">2021 - 2022</span><br><span class="bold">Entrepreneurship</span><br>Fristad folkhögskola</p>
+                            <p><span class="dark--color bold">2018 - 2020</span><br><span class="bold">Marine sciences</span><br>University of Gothenburg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>What do I do?</h2>
+            <div class="grid">
+                <div class="spaceventures">
+                    <img src="images/spaceventures.jpg" height="50" width="100" alt="astronaut" loading="lazy">
+                    <a class="description" href="https://github.com/evelinanorlin/ToTheMoon" target="_blank">
+                        <h3>Space Ventures</h3>
+                        <p>HTML and css</p>
+                    </a>
+                </div>
+                <div class="colorpicker">
+                    <img src="images/colorpicker.jpg" height="50" width="100" alt="colorpicker with red colors" loading="lazy">
+                    <a class="description" href="https://github.com/evelinanorlin/colorpicker" target="_blank">
+                        <h3>Color picker</h3>
+                        <p>HTML, css, javaScript</p>
+                    </a>
+                </div>
+                <div class="evolve">
+                    <img src="images/evolve.png" height="50" width="100" alt="text with pictures of people in front of a jungle background" loading="lazy">
+                    <a class="description" href="images/evolve.png" target="_blank">
+                        <h3>Evolve</h3>
+                        <p>Illustrator</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact--flex">
+                <div>
+                <h3>Want to talk?</h3>
+                <p>Send an email to <br><span><a href="mailto:evelina.norlin@hotmail.com">evelina.norlin@hotmail.com</a></span></p>
+                </div>
+                <div>
+                <h3>Want to get to know me?</h3>
+                <div class="icons--flex">
+                    <a href="https://www.linkedin.com/in/evelinanorlin/" aria-label="linkedin symbol" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/evelinanorlin" aria-label="github symbol" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/evelina.norlin/" aria-label="instagram symbol" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="images/logo_clean.png" height="50" width="50" alt="retro logotype with ocean and sun" loading="lazy">
+    </section>
+    <footer>
+        <p>Ⓒ Evelina Norlin 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
